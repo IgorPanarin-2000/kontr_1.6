@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/include/CComplexVector.hpp
+memory
+-
+stdio.h
+-
+cstring
+-
+
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/include/test.hpp
+cmath
+-
+limits
+-
+../include/CComplexVector.hpp
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/include/CComplexVector.hpp
+
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/src/CComplexVector.cpp
+../include/CComplexVector.hpp
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/include/CComplexVector.hpp
+
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/src/main.cpp
+../include/CComplexVector.hpp
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/include/CComplexVector.hpp
+../include/test.hpp
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/include/test.hpp
+
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/src/test.cpp
+../include/test.hpp
+/home/kirill/kirill/progs/repet/Ekaterina_Tereshkovich/2/task_1/include/test.hpp
+
