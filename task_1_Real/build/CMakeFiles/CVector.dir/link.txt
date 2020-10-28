@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14   CMakeFiles/CVector.dir/src/main.cpp.o CMakeFiles/CVector.dir/src/CVector.cpp.o CMakeFiles/CVector.dir/src/test.cpp.o  -o CVector -rdynamic 
