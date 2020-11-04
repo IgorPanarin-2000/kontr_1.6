@@ -36,7 +36,7 @@ void autotest ()
     if (fabs (vector3.get_array ()[i]) > std::numeric_limits<double>::epsilon ())
       { printf ("TEST FAILED!\n"); return; }
 
-  if (fabs ((vector0 * vector1).get_array ()[0] - 5) > std::numeric_limits<double>::epsilon ())
+  if (fabs ((vector0 * vector1) - 5.) > std::numeric_limits<double>::epsilon ())
     { printf ("TEST FAILED!\n"); return; }
 
 

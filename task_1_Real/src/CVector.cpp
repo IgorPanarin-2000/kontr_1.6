@@ -104,17 +104,17 @@ CVector_t CVector_t::operator- (CVector_t &rhs)
   return CVector_t (array_temp.get (), m_array_size);
 }
 
-CVector_t CVector_t::operator* (CVector_t &rhs)
+double CVector_t::operator* (CVector_t &rhs)
 {
   if (m_array_size != rhs.m_array_size)
-    return *this;
+    return 0.;
 
   double sum = 0.;
 
   for (int i = 0; i < m_array_size; i++)
     sum += m_array[i] * rhs.m_array[i];
 
-  return CVector_t (&sum, 1);
+  return sum;
 }
 
 CVector_t& CVector_t::operator= (CVector_t &rhs)

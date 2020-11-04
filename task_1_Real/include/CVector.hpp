@@ -30,7 +30,7 @@ public:
 
   CVector_t operator+ (CVector_t &rhs);
   CVector_t operator- (CVector_t &rhs);
-  CVector_t operator* (CVector_t &rhs);
+  double operator* (CVector_t &rhs);
   CVector_t& operator= (CVector_t &rhs);
 
 };
